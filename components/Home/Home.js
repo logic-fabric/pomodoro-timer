@@ -5,7 +5,9 @@ export class Home {
   }
 
   get html() {
-    return `<span data-testid="timer-value">${this.timerValue}</span>`;
+    return `<div class="timer">
+      <span data-testid="timer-value">${this.timerValue}</span>
+    </div>`;
   }
 
   render() {
