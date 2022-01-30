@@ -9,6 +9,8 @@ export class Home {
   get html() {
     return `<div id="home">
       ${new Timer("#home", "24:00:00").html}
+
+      <button class="timing-btn" type="button" data-testId="btn-25mins">25 mins</button>
     </div>`;
   }
 
