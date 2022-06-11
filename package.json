@@ -1,0 +1,26 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "A simple and responsive Pomodoro timer",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logic-fabric/pomodoro-timer.git"
+  },
+  "author": "Lowic Mangin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logic-fabric/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/logic-fabric/pomodoro-timer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@testing-library/dom": "^8.11.1",
+    "jest": "^27.3.1"
+  }
+}

@@ -1,0 +1,23 @@
+.timing-btn {
+  display: block;
+
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  background: var(--primary-500);
+  cursor: pointer;
+  transition: all 350ms;
+}
+
+.timing-btn:hover {
+  box-shadow: 0.125rem 0.5rem 0.5rem var(--neutral-300);
+
+  background: var(--primary-700);
+  transform: translateY(-0.125rem);
+}
